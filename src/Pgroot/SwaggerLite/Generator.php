@@ -148,10 +148,12 @@ class Generator {
             'description' => array_get($docArray, 'description', ''),
             'operationId' => '',
             'consumes'    => [
+				'application/x-www-form-urlencoded',
                 'application/json',
                 'application/xml',
             ],
             'produces'    => [
+				'application/x-www-form-urlencoded',
                 "application/json",
                 "application/xml"
             ],
